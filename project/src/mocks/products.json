@@ -1,0 +1,241 @@
+{
+  "products": [
+    {
+      "id": 121,
+      "title": "iPhone 5s",
+      "price": 199.99,
+      "description": "The iPhone 5s is a classic smartphone known for its compact design and advanced features during its release. While it's an older model, it still provides a reliable user experience.",
+      "thumbnail": "https://cdn.dummyjson.com/products/images/smartphones/iPhone%205s/thumbnail.png",
+      "category": "smartphones",
+      "quantity": 10
+    },
+    {
+      "id": 122,
+      "title": "iPhone 6",
+      "price": 299.99,
+      "description": "The iPhone 6 is a stylish and capable smartphone with a larger display and improved performance. It introduced new features and design elements, making it a popular choice in its time.",
+      "thumbnail": "https://cdn.dummyjson.com/products/images/smartphones/iPhone%206/thumbnail.png",
+      "category": "smartphones",
+      "quantity": 8
+    },
+    {
+      "id": 123,
+      "title": "iPhone 13 Pro",
+      "price": 1099.99,
+      "description": "The iPhone 13 Pro is a cutting-edge smartphone with a powerful camera system, high-performance chip, and stunning display. It offers advanced features for users who demand top-notch technology.",
+      "thumbnail": "https://cdn.dummyjson.com/products/images/smartphones/iPhone%2013%20Pro/thumbnail.png",
+      "category": "smartphones",
+      "quantity": 12
+    },
+    {
+      "id": 124,
+      "title": "iPhone X",
+      "price": 899.99,
+      "description": "The iPhone X is a flagship smartphone featuring a bezel-less OLED display, facial recognition technology (Face ID), and impressive performance. It represents a milestone in iPhone design and innovation.",
+      "thumbnail": "https://cdn.dummyjson.com/products/images/smartphones/iPhone%20X/thumbnail.png",
+      "category": "smartphones",
+      "quantity": 14
+    },
+    {
+      "id": 125,
+      "title": "Oppo A57",
+      "price": 249.99,
+      "description": "The Oppo A57 is a mid-range smartphone known for its sleek design and capable features. It offers a balance of performance and affordability, making it a popular choice.",
+      "thumbnail": "https://cdn.dummyjson.com/products/images/smartphones/Oppo%20A57/thumbnail.png",
+      "category": "smartphones",
+      "quantity": 31
+    },
+    {
+      "id": 126,
+      "title": "Oppo F19 Pro Plus",
+      "price": 399.99,
+      "description": "The Oppo F19 Pro Plus is a feature-rich smartphone with a focus on camera capabilities. It boasts advanced photography features and a powerful performance for a premium user experience.",
+      "thumbnail": "https://cdn.dummyjson.com/products/images/smartphones/Oppo%20F19%20Pro%20Plus/thumbnail.png",
+      "category": "smartphones",
+      "quantity": 21
+    },
+    {
+      "id": 127,
+      "title": "Oppo K1",
+      "price": 299.99,
+      "description": "The Oppo K1 series offers a range of smartphones with various features and specifications. Known for their stylish design and reliable performance, the Oppo K1 series caters to diverse user preferences.",
+      "thumbnail": "https://cdn.dummyjson.com/products/images/smartphones/Oppo%20K1/thumbnail.png",
+      "category": "smartphones",
+      "quantity": 100
+    },
+    {
+      "id": 128,
+      "title": "Realme C35",
+      "price": 149.99,
+      "description": "The Realme C35 is a budget-friendly smartphone with a focus on providing essential features for everyday use. It offers a reliable performance and user-friendly experience.",
+      "thumbnail": "https://cdn.dummyjson.com/products/images/smartphones/Realme%20C35/thumbnail.png",
+      "category": "smartphones",
+      "quantity": 10
+    },
+    {
+      "id": 129,
+      "title": "Realme X",
+      "price": 299.99,
+      "description": "The Realme X is a mid-range smartphone known for its sleek design and impressive display. It offers a good balance of performance and camera capabilities for users seeking a quality device.",
+      "thumbnail": "https://cdn.dummyjson.com/products/images/smartphones/Realme%20X/thumbnail.png",
+      "category": "smartphones",
+      "quantity": 5
+    },
+    {
+      "id": 130,
+      "title": "Realme XT",
+      "price": 349.99,
+      "description": "The Realme XT is a feature-rich smartphone with a focus on camera technology. It comes equipped with advanced camera sensors, delivering high-quality photos and videos for photography enthusiasts.",
+      "thumbnail": "https://cdn.dummyjson.com/products/images/smartphones/Realme%20XT/thumbnail.png",
+      "category": "smartphones",
+      "quantity": 39
+    },
+    {
+      "id": 131,
+      "title": "Samsung Galaxy S7",
+      "price": 299.99,
+      "description": "The Samsung Galaxy S7 is a flagship smartphone known for its sleek design and advanced features. It features a high-resolution display, powerful camera, and robust performance.",
+      "thumbnail": "https://cdn.dummyjson.com/products/images/smartphones/Samsung%20Galaxy%20S7/thumbnail.png",
+      "category": "smartphones",
+      "quantity": 38
+    },
+    {
+      "id": 132,
+      "title": "Samsung Galaxy S8",
+      "price": 499.99,
+      "description": "The Samsung Galaxy S8 is a premium smartphone with an Infinity Display, offering a stunning visual experience. It boasts advanced camera capabilities and cutting-edge technology.",
+      "thumbnail": "https://cdn.dummyjson.com/products/images/smartphones/Samsung%20Galaxy%20S8/thumbnail.png",
+      "category": "smartphones",
+      "quantity": 15
+    },
+    {
+      "id": 133,
+      "title": "Samsung Galaxy S10",
+      "price": 699.99,
+      "description": "The Samsung Galaxy S10 is a flagship device featuring a dynamic AMOLED display, versatile camera system, and powerful performance. It represents innovation and excellence in smartphone technology.",
+      "thumbnail": "https://cdn.dummyjson.com/products/images/smartphones/Samsung%20Galaxy%20S10/thumbnail.png",
+      "category": "smartphones",
+      "quantity": 20
+    },
+    {
+      "id": 134,
+      "title": "Vivo S1",
+      "price": 249.99,
+      "description": "The Vivo S1 is a stylish and mid-range smartphone offering a blend of design and performance. It features a vibrant display, capable camera system, and reliable functionality.",
+      "thumbnail": "https://cdn.dummyjson.com/products/images/smartphones/Vivo%20S1/thumbnail.png",
+      "category": "smartphones",
+      "quantity": 22
+    },
+    {
+      "id": 135,
+      "title": "Vivo V9",
+      "price": 299.99,
+      "description": "The Vivo V9 is a smartphone known for its sleek design and emphasis on capturing high-quality selfies. It features a notch display, dual-camera setup, and a modern design.",
+      "thumbnail": "https://cdn.dummyjson.com/products/images/smartphones/Vivo%20V9/thumbnail.png",
+      "category": "smartphones",
+      "quantity": 33
+    },
+    {
+      "id": 136,
+      "title": "Vivo X21",
+      "price": 499.99,
+      "description": "The Vivo X21 is a premium smartphone with a focus on cutting-edge technology. It features an in-display fingerprint sensor, a high-resolution display, and advanced camera capabilities.",
+      "thumbnail": "https://cdn.dummyjson.com/products/images/smartphones/Vivo%20X21/thumbnail.png",
+      "category": "smartphones",
+      "quantity": 44
+    },
+    {
+      "id": 78,
+      "title": "Apple MacBook Pro 14 Inch Space Grey",
+      "price": 1999.99,
+      "description": "The MacBook Pro 14 Inch in Space Grey is a powerful and sleek laptop, featuring Apple's M1 Pro chip for exceptional performance and a stunning Retina display.",
+      "thumbnail": "https://cdn.dummyjson.com/products/images/laptops/Apple%20MacBook%20Pro%2014%20Inch%20Space%20Grey/thumbnail.png",
+      "category": "laptops",
+      "quantity": 55
+    },
+    {
+      "id": 79,
+      "title": "Asus Zenbook Pro Dual Screen Laptop",
+      "price": 1799.99,
+      "description": "The Asus Zenbook Pro Dual Screen Laptop is a high-performance device with dual screens, providing productivity and versatility for creative professionals.",
+      "thumbnail": "https://cdn.dummyjson.com/products/images/laptops/Asus%20Zenbook%20Pro%20Dual%20Screen%20Laptop/thumbnail.png",
+      "category": "laptops",
+      "quantity": 12
+    },
+    {
+      "id": 80,
+      "title": "Huawei Matebook X Pro",
+      "price": 1399.99,
+      "description": "The Huawei Matebook X Pro is a slim and stylish laptop with a high-resolution touchscreen display, offering a premium experience for users on the go.",
+      "thumbnail": "https://cdn.dummyjson.com/products/images/laptops/Huawei%20Matebook%20X%20Pro/thumbnail.png",
+      "category": "laptops",
+      "quantity": 11
+    },
+    {
+      "id": 81,
+      "title": "Lenovo Yoga 920",
+      "price": 1099.99,
+      "description": "The Lenovo Yoga 920 is a 2-in-1 convertible laptop with a flexible hinge, allowing you to use it as a laptop or tablet, offering versatility and portability.",
+      "thumbnail": "https://cdn.dummyjson.com/products/images/laptops/Lenovo%20Yoga%20920/thumbnail.png",
+      "category": "laptops",
+      "quantity": 10
+    },
+    {
+      "id": 82,
+      "title": "New DELL XPS 13 9300 Laptop",
+      "price": 1499.99,
+      "description": "The New DELL XPS 13 9300 Laptop is a compact and powerful device, featuring a virtually borderless InfinityEdge display and high-end performance for various tasks.",
+      "thumbnail": "https://cdn.dummyjson.com/products/images/laptops/New%20DELL%20XPS%2013%209300%20Laptop/thumbnail.png",
+      "category": "laptops",
+      "quantity": 10
+    },
+    {
+      "id": 154,
+      "title": "Black Sun Glasses",
+      "price": 29.99,
+      "description": "The Black Sun Glasses are a classic and stylish choice, featuring a sleek black frame and tinted lenses. They provide both UV protection and a fashionable look.",
+      "thumbnail": "https://cdn.dummyjson.com/products/images/sunglasses/Black%20Sun%20Glasses/thumbnail.png",
+      "category": "sunglasses",
+      "quantity": 5
+    },
+    {
+      "id": 155,
+      "title": "Classic Sun Glasses",
+      "price": 24.99,
+      "description": "The Classic Sun Glasses offer a timeless design with a neutral frame and UV-protected lenses. These sunglasses are versatile and suitable for various occasions.",
+      "thumbnail": "https://cdn.dummyjson.com/products/images/sunglasses/Classic%20Sun%20Glasses/thumbnail.png",
+      "category": "sunglasses",
+      "quantity": 7
+    },
+    {
+      "id": 156,
+      "title": "Green and Black Glasses",
+      "price": 34.99,
+      "description": "The Green and Black Glasses feature a bold combination of green and black colors, adding a touch of vibrancy to your eyewear collection. They are both stylish and eye-catching.",
+      "thumbnail": "https://cdn.dummyjson.com/products/images/sunglasses/Green%20and%20Black%20Glasses/thumbnail.png",
+      "category": "sunglasses",
+      "quantity": 8
+    },
+    {
+      "id": 157,
+      "title": "Party Glasses",
+      "price": 19.99,
+      "description": "The Party Glasses are designed to add flair to your party outfit. With unique shapes or colorful frames, they're perfect for adding a playful touch to your look during celebrations.",
+      "thumbnail": "https://cdn.dummyjson.com/products/images/sunglasses/Party%20Glasses/thumbnail.png",
+      "category": "sunglasses",
+      "quantity": 8
+    },
+    {
+      "id": 158,
+      "title": "Sunglasses",
+      "price": 22.99,
+      "description": "The Sunglasses offer a classic and simple design with a focus on functionality. These sunglasses provide essential UV protection while maintaining a timeless look.",
+      "thumbnail": "https://cdn.dummyjson.com/products/images/sunglasses/Sunglasses/thumbnail.png",
+      "category": "sunglasses",
+      "quantity": 8
+    }
+  ],
+  "total": 16,
+  "skip": 0,
+  "limit": 16
+}
