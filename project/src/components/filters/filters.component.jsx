@@ -1,14 +1,17 @@
 import { useId } from 'react'
 import './filters.component.css'
 
-export function Filters({
-  minPrice,
-  category,
-  handleMinPrice,
-  handleCategory
-}) {
+export function Filters({ minPrice, category, setMinPrice, setCategory }) {
   const filterInputPicee = useId()
   const filterSelectCategories = useId()
+
+  const handleMinPrice = (e) => {
+    setMinPrice(e.target.value)
+  }
+
+  const handleCategory = (e) => {
+    setCategory(e.target.value)
+  }
 
   return (
     <section className='filters'>
