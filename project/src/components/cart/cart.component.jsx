@@ -1,33 +1,11 @@
-import { useId } from 'react'
+import { useContext, useId } from 'react'
 import { CartIcon, ClearCartIcon } from '../Icons.jsx'
 import './cart.component.css'
-export function Cart({
-  productCartList,
-  filteredProducts,
-  setProductCartList
-}) {
+import { CartContext } from '../../contexts/cart.context.jsx'
+export function Cart() {
   const cartCheckboxId = useId()
-
-  const handleAddProdctToCart = (product) => {
-    const productToAddIndex = productCartList.findIndex(
-      (p) => p.id === product.id
-    )
-
-    const newProductCartList = structuredClone(productCartList)
-    const productIndex = filteredProducts.findIndex((p) => p.id === product.id)
-
-    if (
-      productToAddIndex >= 0 &&
-      productCartList[productToAddIndex].quantity <
-        filteredProducts[productIndex].quantity
-    ) {
-      newProductCartList[productToAddIndex].quantity++
-      setProductCartList(newProductCartList)
-    } else if (productToAddIndex === -1) {
-      // if is nww then add it
-      setProductCartList([...newProductCartList, { ...product, quantity: 1 }])
-    }
-  }
+  const { productCartList, handleAddProdctToCart, clearCartProducts } =
+    useContext(CartContext)
 
   return (
     <>
@@ -52,7 +30,7 @@ export function Cart({
               </li>
             ))}
         </ul>
-        <button className='clear-list' onClick={() => setProductCartList([])}>
+        <button className='clear-list' onClick={clearCartProducts}>
           <ClearCartIcon />
         </button>
       </section>

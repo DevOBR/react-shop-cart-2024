@@ -1,16 +1,18 @@
-import { useId } from 'react'
+import { useContext, useId } from 'react'
 import './filters.component.css'
+import { FiltersContext } from '../../contexts/filter.context'
 
-export function Filters({ minPrice, category, setMinPrice, setCategory }) {
+export function Filters() {
+  const { filters, setFilters } = useContext(FiltersContext)
   const filterInputPicee = useId()
   const filterSelectCategories = useId()
 
   const handleMinPrice = (e) => {
-    setMinPrice(e.target.value)
+    setFilters({ ...filters, minPrice: e.target.value })
   }
 
   const handleCategory = (e) => {
-    setCategory(e.target.value)
+    setFilters({ ...filters, category: e.target.value })
   }
 
   return (
@@ -22,10 +24,10 @@ export function Filters({ minPrice, category, setMinPrice, setCategory }) {
           type='range'
           min='0'
           max='1000'
-          value={minPrice}
+          value={filters.minPrice}
           onChange={handleMinPrice}
         />
-        <span>${minPrice}</span>
+        <span>${filters.minPrice}</span>
       </div>
       <div>
         <label htmlFor={filterSelectCategories}>Categories</label>
@@ -33,7 +35,7 @@ export function Filters({ minPrice, category, setMinPrice, setCategory }) {
           name='categories'
           id={filterSelectCategories}
           onChange={handleCategory}
-          value={category}
+          value={filters.category}
         >
           <option value='all'>All</option>
           <option value='laptops'>Laptops</option>
