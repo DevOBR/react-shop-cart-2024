@@ -1,0 +1,15 @@
+/* filters */
+
+section.filters {
+  display: flex;
+  place-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.filters > div {
+  display: flex;
+  gap: 1rem;
+}
