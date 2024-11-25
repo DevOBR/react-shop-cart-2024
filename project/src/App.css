@@ -161,6 +161,7 @@ section.filters {
 .cart-button ~ input:checked ~ section.cart {
   height: 100%;
   display: block;
+  text-align: center;
 }
 
 .clear-list {
