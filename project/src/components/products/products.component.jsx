@@ -5,8 +5,8 @@ import './products.component.css'
 import { CartContext } from '../../contexts/cart.context.jsx'
 
 export function Products({ products }) {
-  const { productCartList, handleAddProdctToCart, handleRemoveProdctToCart } =
-    useContext(CartContext)
+  const { productCartList, handler } = useContext(CartContext)
+
   const productAction = (addProduct, RemoveProduct, isInCart) => {
     return (
       <>
@@ -31,7 +31,7 @@ export function Products({ products }) {
           products.map((p) => (
             <ul key={p.id}>
               <li>
-                {p.title} - Quantity {p.quantity}
+                {p.title} - Quantity: {p.quantity}
               </li>
               <li>$ {p.price}</li>
               <li>
@@ -40,8 +40,8 @@ export function Products({ products }) {
               <li>{p.description}</li>
               <li className='prod-action-button'>
                 {productAction(
-                  () => handleAddProdctToCart(p),
-                  () => handleRemoveProdctToCart(p),
+                  () => handler('add', p),
+                  () => handler('remove', p),
                   productCartList?.some((prod) => prod.id === p.id)
                 )}
               </li>

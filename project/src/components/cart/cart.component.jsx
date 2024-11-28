@@ -1,11 +1,11 @@
 import { useContext, useId } from 'react'
 import { CartIcon, ClearCartIcon } from '../Icons.jsx'
-import './cart.component.css'
 import { CartContext } from '../../contexts/cart.context.jsx'
+import './cart.component.css'
+
 export function Cart() {
   const cartCheckboxId = useId()
-  const { productCartList, handleAddProdctToCart, clearCartProducts } =
-    useContext(CartContext)
+  const { productCartList, handler } = useContext(CartContext)
 
   return (
     <>
@@ -25,12 +25,12 @@ export function Cart() {
 
                 <footer>
                   <small>Quantity: {p.quantity}</small>
-                  <button onClick={() => handleAddProdctToCart(p)}>+</button>
+                  <button onClick={() => handler('add', p)}>+</button>
                 </footer>
               </li>
             ))}
         </ul>
-        <button className='clear-list' onClick={clearCartProducts}>
+        <button className='clear-list' onClick={() => handler('clear')}>
           <ClearCartIcon />
         </button>
       </section>
