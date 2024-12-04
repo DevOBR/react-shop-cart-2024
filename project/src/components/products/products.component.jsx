@@ -3,6 +3,7 @@ import { Filters } from '../filters/filters.component.jsx'
 import { AddToCartIcon, RemoveFromCartIcon } from '../Icons.jsx'
 import './products.component.css'
 import { CartContext } from '../../contexts/cart.context.jsx'
+import { CART_ACTIONS } from '../../consts/const.js'
 
 export function Products({ products }) {
   const { productCartList, handler } = useContext(CartContext)
@@ -40,8 +41,8 @@ export function Products({ products }) {
               <li>{p.description}</li>
               <li className='prod-action-button'>
                 {productAction(
-                  () => handler('add', p),
-                  () => handler('remove', p),
+                  () => handler(CART_ACTIONS.ADD, p),
+                  () => handler(CART_ACTIONS.REMOVE, p),
                   productCartList?.some((prod) => prod.id === p.id)
                 )}
               </li>

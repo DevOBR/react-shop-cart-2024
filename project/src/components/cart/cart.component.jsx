@@ -2,6 +2,7 @@ import { useContext, useId } from 'react'
 import { CartIcon, ClearCartIcon } from '../Icons.jsx'
 import { CartContext } from '../../contexts/cart.context.jsx'
 import './cart.component.css'
+import { CART_ACTIONS } from '../../consts/const.js'
 
 export function Cart() {
   const cartCheckboxId = useId()
@@ -25,12 +26,17 @@ export function Cart() {
 
                 <footer>
                   <small>Quantity: {p.quantity}</small>
-                  <button onClick={() => handler('add', p)}>+</button>
+                  <button onClick={() => handler(CART_ACTIONS.ADD, p)}>
+                    +
+                  </button>
                 </footer>
               </li>
             ))}
         </ul>
-        <button className='clear-list' onClick={() => handler('clear')}>
+        <button
+          className='clear-list'
+          onClick={() => handler(CART_ACTIONS.CLEAR)}
+        >
           <ClearCartIcon />
         </button>
       </section>
